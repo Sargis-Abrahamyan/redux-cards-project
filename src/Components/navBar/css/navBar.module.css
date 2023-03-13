@@ -1,0 +1,43 @@
+nav {
+    position: sticky;
+    inset: 0;
+    z-index: 1;
+    padding: 10px 3rem;
+    background: rgb(43, 179, 196);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #fff;
+}
+
+.navBar_container>button {
+    width: 130px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(197, 172, 247);
+    color: #fff;
+    border: none;
+    font: bold 20px/1.5 sans-serif;
+    margin-right: 15px;
+    transition: 1s;
+}
+
+.navBar_container>button:hover {
+    transform: scale(1.1);
+}
+
+.navBar_container>button:first-child {
+    background-color: #000;
+}
+
+.navBar_container>button:nth-child(2) {
+    background: rgb(247, 247, 0);
+    color: #000;
+}
+
+.navBar_container>button:last-child {
+    background-color: rgb(220, 35, 42);
+}

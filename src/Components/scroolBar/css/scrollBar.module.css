@@ -1,0 +1,22 @@
+.scroolBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border-radius: 22px;
+    color: rgb(255, 0, 0);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    animation: scrollTop 1s infinite alternate;
+    transition: color 1s ease 100ms;
+}
+
+@keyframes scrollTop {
+    from {
+        bottom: 0%;
+    }
+
+    to {
+        bottom: 2%;
+    }
+}

@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    padding: 25px 0;
+    position: fixed;
+    bottom: 0;
+    background: rgb(41, 119, 150);
+}
+
+.footer_info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    text-align: center;
+    font: Bold 23px/1.5 serif;
+    color: #fff;
+}

@@ -1,0 +1,15 @@
+.section_container {
+    max-width: 1250px;
+    height: 100%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    text-align: center;
+    font: bold 50px sans-serif;
+    color: rgb(255,0,0);
+    text-shadow: 3px 1px 3px;
+}
